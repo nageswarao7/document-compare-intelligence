@@ -97,15 +97,6 @@ You can adjust the following parameters in the code:
 - Model selection: Change the Gemini model (default: "gemini-2.5-pro-preview-03-25")
 - Temperature settings for AI responses
 
-## Troubleshooting
-
-**Error: "Google API key not found"**
-- Ensure you have created a `.env` file with your Google API key
-
-**Poor text extraction results**
-- The application uses two different PDF extraction methods. If one fails, try with different PDF files or pre-process the PDFs to ensure text is properly embedded.
-
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
