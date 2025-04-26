@@ -94,7 +94,7 @@ document-compare-intelligence/
 You can adjust the following parameters in the code:
 
 - `max_chunk_size`: Maximum text chunk size for processing (default: 8000)
-- Model selection: Change the Gemini model (default: "gemini-1.5-flash")
+- Model selection: Change the Gemini model (default: "gemini-2.5-pro-preview-03-25")
 - Temperature settings for AI responses
 
 ## Troubleshooting
