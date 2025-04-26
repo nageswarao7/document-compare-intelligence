@@ -185,7 +185,7 @@ Focus *only* on the differences between the two provided chunks. Ensure the outp
 
 
 # --- compare_texts function ---
-def compare_texts(text1: str, text2: str, model: str = "gemini-1.5-flash", max_chunk_size: int = 8000) -> Dict[str, Any]:
+def compare_texts(text1: str, text2: str, model: str = "gemini-2.5-pro-preview-03-25", max_chunk_size: int = 8000) -> Dict[str, Any]:
     """
     Compare two full texts, chunking if necessary, processing all chunks,
     aggregating the results, and generating a final synthesized summary.
